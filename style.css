@@ -1,0 +1,94 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+
+  border-radius: 10px;
+  }
+  
+  .header {
+  background-color: #037973;
+  color: rgb(253, 251, 251);
+  border: 2px solid #01534f79;
+  padding: 0.9px 10px 0.9px 15px;
+  border-radius: 10px 10px 0 0;
+  }
+  
+  .header h1 {
+  margin-right: 20rem;
+  margin-top: 10px;
+  margin-bottom: 0.9px;
+  font-size: 36px;
+  }
+  
+  .header h6 {
+  margin-right: 13rem;
+  margin-top: 1px;
+  margin-bottom: 0.9px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .form-group {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  }
+  
+  .label-number {
+  display: inline-block;
+  background-color: #037973;
+  color: #fff;
+  border-radius: 50px;
+  padding: 7px 12px;
+  margin-right: 10px;
+  }
+  
+  .label-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: #035c57;
+  }
+  
+  input[type="text"], input[type="address"], input[type="email"], input[type="tel"], input[type="password"] {
+  width: 90%;
+  padding: 5px 0 5px 0;
+  margin-left: 50px;
+  border: 1px solid rgba(131, 97, 97, 0.637);
+  background-color: #ddd2d202;
+  margin-top: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  }
+
+
+  input[type="text"]:focus, input[type="address"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="password"]:focus {
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #0a0a0a;
+}
+
+  
+  input[type="submit"] {
+  background-color: #037973cb;
+  color: #f7f8f8;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0a0a0a;
+    color: aqua;
+  }
+  
+  .checkbox-label {
+  display: inline-block;
+  margin-left: 12rem;
+  font-size: 15px;
+  color: rgb(14, 13, 13);
+  }
